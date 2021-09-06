@@ -123,36 +123,74 @@ def arac_yarat_4():
          'km': 89000,
          'motor': 1.6}
     )
+    return arac
+
 
 print()
 print("========================================================================")
 print()
 
+
 # SORU - 4
 # Adı yeni_arac_yarat olan bir fonksiyon yazın. Bu fonksiyon soru 3'teki fonksiyonlardan birini çağırsın ve arac sözlüğü alsın.
 # Sonra arac sözlüğünün elemanlarını bir döngü ve update() kullanarak başka bir sözlüğe kopyalasın.
-#
+# Kopyalarken hem orjinal elamanı alsın hemde herbir key'in sonuna "_2" eki eklesin.
+# Yeni sozlugumuzun adı 'yeni_arac' olsun. Ve fonksiyon bu sözlüğü dönsün.
+# ipuçları
+# copy()
+# update()
+# items()
+
+def yeni_arac_yarat():
+    # önce arac al
+    arac = arac_yarat_4()
+
+    # direkt olarak arac sözlüğünü kopyala
+    yeni_arac = arac.copy()
+
+    # şimdi araç sözlüğünü elemanlarında döncez.
+
+    for item in arac.items():
+        key = item[0]  # key'e denk geliyor.
+        value = item[1]  # value denk gelir
+
+        key += "_2"
+
+        yeni_arac[key] = value
+
+    return yeni_arac
 
 
+deger = yeni_arac_yarat()
+print(deger)
+
+print()
+print("========================================================================")
+print()
+
+# SORU - 5
+# Aşşağıdaki Dict'leri birleştirip ortaya yeni bir dict çıkaran ve geri dönen bir fonksiyon yazın.
+# Fonksiyon bu 3 dict'i parametre olarak alacak ve adı 'sozluk_birlestir' olacak.
+# ipuçları
+# tek bir for döngüsü kullanın.
+# update()
+
+d1 = {4: 120, 7: 60}
+d2 = {'A': 300, 'B': 400}
+d3 = {True: 'Doğru', False: 'Yanlış'}
 
 
+def sozluk_birlestir(d1, d2, d3):
+    sozluk = dict()
+
+    # Python'da birden fazla sözlük üzerinde tek seferde dönebiliriz.
+    # Önce birini bitirip sonra diğerine geçer
+
+    for i in (d1, d2, d3):
+        sozluk.update(i)
+
+    return sozluk
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+deger = sozluk_birlestir(d1, d2, d3)
+print(deger)
