@@ -16,4 +16,7 @@ Python'da String Formatlama 4 yol ile yapılır:
 # import str_format
 
 # 3- f'strings
-import f_strings
+# import f_strings
+
+# 4 - Template String
+import template_strings
