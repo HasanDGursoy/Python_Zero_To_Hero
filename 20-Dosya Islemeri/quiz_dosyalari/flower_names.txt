@@ -1,0 +1,26 @@
+A : African Daisy
+B : BellFlower
+C : Coral Bells
+D : Desert Rose
+E : English Bluewbell
+F : Forget Me Not
+G : Goldenrod
+H : Heliotrope
+I : Impatiens
+J : Jamesia Americana
+K : Kangaroo Paw
+L : Lily Of The Valley
+M : Monks Hood
+N : Nemophila
+O : Ox Eye Daisy
+P : Peace Lily
+Q : Quaker Ladies
+R : Rain Lily
+S : Snapdragon
+T : Trumpet Vine
+U : Urn Plant
+V : Viola Wittrockiana
+W : Whirling Butterfiles
+X : Xanthoceras Sorbifolium
+Y : Yellow Archangel
+Z : Zinnia elegans

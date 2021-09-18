@@ -1,0 +1,14 @@
+The_Great_Wave_of_Kanagawa_Kiz_Kulesi.jpg 
+olarak gördüğünüz resim, aslında iki resmin birleşimi:
+
+1- The Great Wave off Kanagawa.jpg
+Japon Ressam Katsushika Hokusai - 1829
+https://en.wikipedia.org/wiki/The_Great_Wave_off_Kanagawa
+
+2- Kız Kulesi.png
+
+Bu iki resim Musa Arda tarafından, Deep Learning'in özel bir alanı olan 'Neural Style Transfer' kullanılarak yapıldı.
+Kanagawa'nın stili Kız Kulesinin üzerine uygulandı ve ortaya bu inanılmaz birleşim çıktı.
+
+İlgilenenler için Neural Style Transfer:
+https://www.tensorflow.org/tutorials/generative/style_transfer
